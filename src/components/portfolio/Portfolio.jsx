@@ -30,6 +30,13 @@ const data = [
     github: "https://github.com/oladonniec/javascriptquizapp",
     demo: "https://github.com/oladonniec/javascriptquizapp",
   },
+  {
+    id: 5,
+    image: "https://i.postimg.cc/DZmy3V4n/Savvy-ecommerce-home-screen.png",
+    title: "Savvy Accessories Ecommerce Web App",
+    github: "https://github.com/oladonniec/savvyaccessories",
+    demo: "https://github.com/oladonniec/savvyaccessories",
+  },
 ];
 
 const Portfolio = () => {
