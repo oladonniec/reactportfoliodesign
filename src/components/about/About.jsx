@@ -26,16 +26,16 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>7 Worldwide</small>
+              <small>15 Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ completed projects</small>
+              <small>30+ completed projects</small>
             </article>
           </div>
           <p>
-            I am a Frontend Web/Software Engineer with 2 - 3 year freelance
+            I am a Frontend Web/Software Engineer with 3 - 4 year freelance
             experience. I am passion driven towards creating amazing designs and
             user interface that will give users the best of experience. I put my
             integrity at the top of my priorities. I deliver work whenever

@@ -4,34 +4,45 @@ import "./portfolio.css";
 const data = [
   {
     id: 1,
-    image: "https://i.postimg.cc/Ls6Dry3C/todoscreenshot.png",
-    title: "Todo-List App",
-    github: "https://github.com/oladonniec/javascripttodoapp",
-    demo: "https://github.com/oladonniec/javascripttodoapp",
+    image: "https://i.postimg.cc/zfLL1Fy8/restaurantscreenshot.png",
+    title: "React Restaurant Frontend App",
+    demo: "https://oladonniec.github.io/restaurantsample/",
   },
   {
     id: 2,
+    image: "https://i.postimg.cc/kML0tPj3/reactlandingpagescreenshot.png",
+    title: "React Landing Page",
+    demo: "https://oladonniec.github.io/myandingpage/",
+  },
+  {
+    id: 3,
+    image: "https://i.postimg.cc/sgzHzj2m/reactnftlandingpage.png",
+    title: "NFT Website Landing Page",
+    demo: "https://oladonniec.github.io/nftlanding/",
+  },
+  {
+    id: 4,
     image: "https://i.postimg.cc/mDnW6jgL/Screenshot.png",
     title: "JavaScript Clock",
     github: "https://github.com/oladonniec/JavaScript-Clock",
     demo: "https://github.com/oladonniec/JavaScript-Clock",
   },
   {
-    id: 3,
+    id: 5,
     image: "https://i.postimg.cc/k5Zq5Nmn/Capture.png",
     title: "JavaScript Cart",
     github: "https://github.com/oladonniec/javascriptcart",
     demo: "https://github.com/oladonniec/javascriptcart",
   },
   {
-    id: 4,
+    id: 6,
     image: "https://i.postimg.cc/q7ZHTbWC/newscreen.png",
     title: "JavaScipt Quiz App",
     github: "https://github.com/oladonniec/javascriptquizapp",
     demo: "https://github.com/oladonniec/javascriptquizapp",
   },
   {
-    id: 5,
+    id: 7,
     image: "https://i.postimg.cc/DZmy3V4n/Savvy-ecommerce-home-screen.png",
     title: "Savvy Accessories Ecommerce Web App",
     github: "https://github.com/oladonniec/savvyaccessories",
@@ -46,16 +57,13 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => (
+        {data.map(({ id, image, title, demo }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={image} alt={title} />
             </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
-              <a href={github} className="btn" target="_blank" rel="noreferrer">
-                Github
-              </a>
               <a
                 href={demo}
                 className="btn btn-primary"
